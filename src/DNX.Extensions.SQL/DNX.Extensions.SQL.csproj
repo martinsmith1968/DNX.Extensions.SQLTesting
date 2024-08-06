@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <!--
+    <PackageReference Include="ClearBank.Net.Extensions" Version="2.6.7" />
+    -->
+    <!-- Intentially using something a little obscure here, so as not to clash with consuming Test assembly -->
+    <!-- Majority of consumers using FluentAssertions -->
+    <PackageReference Include="Shouldly" Version="4.2.1" />
+  </ItemGroup>
+</Project>
